@@ -1,0 +1,35 @@
+{
+  "properties": [
+    {
+      "name": "mybatis-plus.table.ddl.auto.strategy",
+      "type": "java.lang.String",
+      "defaultValue": "none",
+      "description": "auto ddl strategy default none."
+    },
+    {
+      "name": "mybatis-plus.table.ddl.auto.scan-package",
+      "type": "java.lang.String",
+      "defaultValue": "",
+      "description": "auto ddl scan package default the main module."
+    }
+  ],
+  "hints": [
+    {
+      "name": "mybatis-plus.table.ddl.auto.strategy",
+      "values": [
+        {
+          "value": "create",
+          "description":"创建，删除已存在的表，再新建."
+        },
+        {
+          "value": "none",
+          "description":"不执行."
+        },
+        {
+          "value": "update",
+          "description":"只更新."
+        }
+      ]
+    }
+  ]
+}

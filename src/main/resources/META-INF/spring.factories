@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.xxin.mybatis.auto.ddl.config.MyBatisAutoDDLConfiguration,com.xxin.mybatis.auto.ddl.config.ScanConfiguration
